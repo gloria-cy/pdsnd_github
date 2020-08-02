@@ -185,15 +185,15 @@ def user_stats(df):
 # TO DO: Script should prompt the user if they want to see 5 lines of raw data
 def display_data(df):
     lower = 0
-    upper = 5
+    upper = 3
     while True:
           display = input('\nWould you like to see 5 more records of raw data? Enter yes or no.\n')
           if display.lower() != 'yes':
              break
           else:
              print(df[df.columns[0:]].iloc[lower:upper])
-             lower += 5
-             upper += 5
+             lower += 3
+             upper += 3
 
 def main():
     while True:
