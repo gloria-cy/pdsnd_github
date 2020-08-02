@@ -129,7 +129,7 @@ def station_stats(df):
     df['combination'] = df['Start Station'] + df['End Station']
     print('The most combination of start station and end station trip is\n {}'.format((df['combination'].mode()[0])))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print('\nThis took %s seconds.' % (time.time() - start_time))
     print('-'*40)
 
 
