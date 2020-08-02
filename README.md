@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+2020-08-02
 
 ### Project Title
-Replace the Project Title
+Programming with Data Science_Project 3
 
 ### Description
-Describe what your project is about and what it does
+Using git hub to work with local and remote repositories
 
 ### Files used
-Include the files used
+bikeshare project
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity
